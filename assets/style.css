@@ -24,8 +24,13 @@
     }
 
     /* hero */
-    #jumbotron .slide {
-        flex-direction: column-reverse;
+    #slide {
+        flex-direction: column-reverse !important;
+    }
+
+    #slogan-container {
+        padding-top: 0 !important;
+        padding-bottom: 50px !important;
     }
 
     .slogan {
