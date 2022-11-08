@@ -1,0 +1,12 @@
+/* hero */
+#jumbotron {
+    height: 800px;
+    /* display: flex;
+    flex-direction: column; */
+    background-color: #000;
+    color: #fff;
+}
+
+.emad-img {
+    height: 85%;
+}
