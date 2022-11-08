@@ -58,7 +58,7 @@
 
     <!-- hero section-->
     <section class="hero-section">
-        <div id="jumbotron" class="jumbotron p-0 m-0">
+        <div class="jumbotron black-bg p-0 m-0">
             <div class="row slide">
                 <div class="col-sm-12 col-md-12 col-lg-6 pt-5 pl-5">
                     <h1 class="display-1 text-white pl-5 mt-5">Hi, I'm Emad</h1>
@@ -92,7 +92,7 @@
                         <img src="assets/images/furniture-01.jpg" class="card-img" alt="...">
                         <div class="card-img-overlay">
                             <h5 class="card-title display-4 text-dark pt-3 pl-3">Project 1</h5>
-                            <div class="overlay-bg p-4">
+                            <div class="overlay-bg h-30 position-absolute fixed-bottom p-4">
                                 <p class="card-text text-white">Lorem ipsum dolor sit, amet
                                     consectetur
                                     adipisicing
@@ -112,7 +112,7 @@
                         <img src="assets/images/furniture-02.jpg" class="card-img" alt="...">
                         <div class="card-img-overlay">
                             <h5 class="card-title display-4 text-dark pt-3 pl-3">Project 2</h5>
-                            <div class="overlay-bg p-4">
+                            <div class="overlay-bg h-30 position-absolute fixed-bottom p-4">
                                 <p class="card-text text-white">Lorem ipsum dolor sit, amet
                                     consectetur
                                     adipisicing
@@ -132,7 +132,7 @@
                         <img src="assets/images/furniture-03.jpg" class="card-img" alt="...">
                         <div class="card-img-overlay">
                             <h5 class="card-title display-4 text-dark pt-3 pl-3">Project 3</h5>
-                            <div class="overlay-bg p-4">
+                            <div class="overlay-bg h-30 position-absolute fixed-bottom p-4">
                                 <p class="card-text text-white">Lorem ipsum dolor sit, amet
                                     consectetur
                                     adipisicing
@@ -152,7 +152,7 @@
                         <img src="assets/images/furniture-04.jpg" class="card-img" alt="...">
                         <div class="card-img-overlay">
                             <h5 class="card-title display-4 text-dark pt-3 pl-3">Project 4</h5>
-                            <div class="overlay-bg p-4">
+                            <div class="overlay-bg h-30 position-absolute fixed-bottom p-4">
                                 <p class="card-text text-white">Lorem ipsum dolor sit, amet
                                     consectetur
                                     adipisicing
@@ -172,7 +172,7 @@
                         <img src="assets/images/furniture-05.jpg" class="card-img" alt="...">
                         <div class="card-img-overlay">
                             <h5 class="card-title display-4 text-dark pt-3 pl-3">Project 5</h5>
-                            <div class="overlay-bg p-4">
+                            <div class="overlay-bg h-30 position-absolute fixed-bottom p-4">
                                 <p class="card-text text-white">Lorem ipsum dolor sit, amet
                                     consectetur
                                     adipisicing
@@ -192,7 +192,7 @@
                         <img src="assets/images/furniture-06.jpg" class="card-img" alt="...">
                         <div class="card-img-overlay">
                             <h5 class="card-title display-4 text-dark pt-3 pl-3">Project 6</h5>
-                            <div class="overlay-bg p-4">
+                            <div class="overlay-bg h-30 position-absolute fixed-bottom p-4">
                                 <p class="card-text text-white">Lorem ipsum dolor sit, amet
                                     consectetur
                                     adipisicing
@@ -209,10 +209,20 @@
         </div>
     </section>
 
+    <!-- about -->
 
-    <div class="jumbotron jumbotron-fluid">
+    <section class="jumbotron jumbotron-fluid" id="about">
         <div class="container">
-            <h1 class="display-4">ABOUT ME</h1>
+            <h1 class="display-4 mb-5">ABOUT ME</h1>
+            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio eius ratione
+                consequuntur voluptates, molestiae vero cum dicta, cumque alias possimus asperiores praesentium aut?
+                Autem nemo, quisquam consequatur nesciunt ab vero?Lorem ipsum dolor sit amet consectetur adipisicing
+                elit. Distinctio eius ratione
+                consequuntur voluptates, molestiae vero cum dicta, cumque alias possimus asperiores praesentium aut?
+                Autem nemo, quisquam consequatur nesciunt ab vero?</p>
+            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio eius ratione
+                consequuntur voluptates, molestiae vero cum dicta, cumque alias possimus asperiores praesentium aut?
+                Autem nemo, quisquam consequatur nesciunt ab vero?</p>
             <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio eius ratione
                 consequuntur voluptates, molestiae vero cum dicta, cumque alias possimus asperiores praesentium aut?
                 Autem nemo, quisquam consequatur nesciunt ab vero?Lorem ipsum dolor sit amet consectetur adipisicing
@@ -223,11 +233,37 @@
                 consequuntur voluptates, molestiae vero cum dicta, cumque alias possimus asperiores praesentium aut?
                 Autem nemo, quisquam consequatur nesciunt ab vero?</p>
         </div>
-    </div>
+    </section>
+
+    <!-- contact -->
+
+    <section class="container mb-5 pb-5" id="contact">
+        <h1 class="display-4 mt-5 mb-5 pt-5">CONTACT ME</h1>
+        <form>
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+            <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" class="form-control" id="subject">
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea class="form-control" id="message" rows="6"></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </section>
 
     <!-- footer -->
-    <footer>
-
+    <footer class="black-bg sticky-bottom mt-5">
+        <p class="text-white text-center pt-3 pb-4 mb-0">&copy;2022 - Emad Saeed</p>
     </footer>
     <!-- Bootstrap scripts-->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"

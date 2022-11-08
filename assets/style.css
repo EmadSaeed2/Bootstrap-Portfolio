@@ -1,11 +1,9 @@
-/* hero */
-#jumbotron {
+.black-bg {
     background-color: #000;
 }
 
 /* work-section */
 .project {
-    position: relative;
     transition: transform .2s;
 }
 
@@ -15,10 +13,7 @@
 
 .overlay-bg {
     background-color: rgba(1, 46, 64, 0.7);
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    height: 140px;
+    z-index: 0;
 }
 
 @media screen and (max-width: 820px) {
