@@ -10,3 +10,22 @@
 .emad-img {
     height: 85%;
 }
+
+/* work-section */
+
+.project {
+    position: relative;
+    transition: transform .2s;
+}
+
+.project:hover {
+    transform: scale(1.03);
+}
+
+.overlay-bg {
+    background-color: rgba(1, 46, 64, 0.7);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 140px;
+}
